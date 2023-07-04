@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    color: #2b3b4d;
+    color: #3C4754;
 }
 
 nav {
@@ -70,7 +70,7 @@ h1 {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: rgb(146, 158, 172);
+    color: #7A8DA2;
     text-align: center;
     padding-bottom: 2em;
 }
@@ -79,6 +79,10 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.rating {
+    width: 56.5%;
 }
 
 img {
@@ -93,8 +97,8 @@ figure {
 
 figcaption {
     padding: 1em 2em 2em 2em;
-    color: rgb(146, 158, 172);
-    font-size: 1.2em;
+    color: #7A8DA2;
+    font-size: 1.5em;
     font-weight: 400;
     font-style: italic;
     font-family: 'Roboto', sans-serif;
@@ -117,7 +121,7 @@ figcaption {
     width: 12vw;
     height: 0.8vh;
     border-radius: 5px;
-    background-color: rgb(234, 241, 245);
+    background-color: #ECEFF3;
 }
 
 .user-picture {
@@ -134,48 +138,53 @@ figcaption {
     padding: 2vh 0 2vh 0;
 }
 
+.user-name {
+    display: block;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0 0 3% 0;
+}
+
 .profesi {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    font-weight: 400;
-    color: rgb(146, 158, 172);
+    font-weight: lighter;
+    color: #7A8DA2;
     margin: 3% 0 0 0;
     padding: 0;
 }
 
-.user-name {
-    display: block;
-    font-weight: bold;
-    margin: 0;
-    font-size: 1.1em;
-    margin-bottom: 3%;
-}
-
-.formulir {
-    width: 30%;
-    padding: 3vw;
-    border-radius: 5px;
-    background-color: rgb(234, 241, 245);
+.information-head {
+    font-size: 1.4em;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: rgb(151, 164, 177);
+    font-size: 1.2em;
+    color: #7A8DA2;
     padding-bottom: 2em;
 }
 
+.formulir {
+    width: 30%;
+    padding: 3vw 4.5vw 3vw 4.5vw;
+    border-radius: 5px;
+    background-color: #ECEFF3;
+}
+
 form {
-    margin-top: 2em;
+    margin-top: 2vh;
 }
 
 label {
     display: block;
     font-weight: bold;
+    font-size: 1.3em;
 }
 
 .inputan {
@@ -183,21 +192,21 @@ label {
     box-sizing: border-box;
     width: 100%;
     height: 4em;
-    padding: 0em 0.5em 0em 0.5em;
     margin: 0.5vh 0 6vh 0;
-    border: 3px solid rgb(196, 212, 228);
+    padding: 0em 0.5em 0em 0.5em;
+    border: 3px solid #C9D3DD;
+    border-radius: 10px;
     background-color: white;
-    border-radius: 5px;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 .inputan::placeholder {
-    color: rgb(162, 176, 190);
+    color: #C9D3DD;
     font-size: 1.1em;
 }
 
 select, option {
-    color: rgb(162, 176, 190);
+    color: #C9D3DD;
 }
 
 button {
@@ -207,9 +216,9 @@ button {
     height: 4em;
     padding: 1em 1em 1em 1em;
     margin: 0.5em 0 2em 0;
-    border: 3px solid #2b3b4d;
+    border: 3px solid #29323D;
     border-radius: 5px;
-    background-color: #2b3b4d;
+    background-color: #29323D;
     color: white;
     font-weight: bold;
     font-size: 1.1em;
