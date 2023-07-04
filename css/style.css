@@ -283,7 +283,7 @@ button {
     align-items: start;
     height: 30vh;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
 }
 
 .pros-one {
@@ -296,7 +296,7 @@ button {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 12vw;
+    width: 11vw;
     height: 0.8vh;
     border-radius: 5px;
     background-color: #ECEFF3;
