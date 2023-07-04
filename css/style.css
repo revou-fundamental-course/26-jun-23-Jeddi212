@@ -19,8 +19,7 @@ nav {
 }
 
 .logo {
-    color: #2b434d;
-    font-size: 2em;
+    width: 15%;
 }
 
 .list-nav {
@@ -195,6 +194,9 @@ p {
     font-weight: 400;
     font-size: 1.2em;
     color: #7A8DA2;
+}
+
+.formulir p {
     padding-bottom: 2em;
 }
 
@@ -350,7 +352,7 @@ button {
 /* BOT SECTION */
 /*  */
 
-.mid-section {
+.bot-section {
     border-bottom: 1px solid rgb(236, 236, 236);
 }
 
@@ -370,4 +372,21 @@ button {
 
 .call-btn {
     padding: 2vh 37vw 2vh 37vw;
+}
+
+footer {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer .logo {
+    width: 8%;
+}
+
+footer p {
+    margin: 0;
 }
