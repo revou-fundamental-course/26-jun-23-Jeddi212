@@ -83,13 +83,66 @@ h2 {
 
 img {
     border-radius: 5px;
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    padding: 1em 2em 2em 2em;
+    color: rgb(146, 158, 172);
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-card {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1em 2em 2em 2em;
+}
+
+.user-picture {
+    width: 5vw;
+    padding-right: 2vw;
+    display: inline-block
+}
+
+.user-picture img {
+    border-radius: 50px;
+}
+
+.user-info {
+    padding: 2vh 0 2vh 0;
+}
+
+.profesi {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: rgb(146, 158, 172);
+    margin: 3% 0 0 0;
+    padding: 0;
+}
+
+.user-name {
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.1em;
+    margin-bottom: 3%;
 }
 
 .formulir {
     width: 30%;
     padding: 3vw;
     border-radius: 5px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(234, 241, 245);
 }
 
 h3 {
@@ -99,7 +152,7 @@ h3 {
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: rgb(146, 158, 172);
+    color: rgb(151, 164, 177);
     padding-bottom: 2em;
 }
 
@@ -118,21 +171,21 @@ label {
     width: 100%;
     height: 4em;
     padding: 0em 0.5em 0em 0.5em;
-    margin: 0.3em 0 2em 0;
-    border: 3px solid rgb(184, 193, 204);
+    margin: 0.5vh 0 6vh 0;
+    border: 3px solid rgb(196, 212, 228);
     background-color: white;
     border-radius: 5px;
     font-size: 1.1em;
 }
 
 .inputan::placeholder {
-    color: rgb(184, 193, 204);
+    color: rgb(162, 176, 190);
     font-size: 1.1em;
 }
 
-select option[disabled]:first-child {
-    color: rgb(184, 193, 204);
-  }
+select, option {
+    color: rgb(162, 176, 190);
+}
 
 button {
     display: block;
