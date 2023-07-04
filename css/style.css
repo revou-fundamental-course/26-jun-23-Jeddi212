@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     color: #3C4754;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 nav {
@@ -79,7 +79,7 @@ h2 {
     padding-bottom: 2em;
 }
 
-.main-content {
+.top-section .main-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -255,6 +255,10 @@ button {
 /* MID SECTION */
 /*  */
 
+.mid-section {
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
 .mid-header {
     background-color: #ECEFF3;
     padding-bottom: 10vh;
@@ -267,4 +271,76 @@ button {
     text-align: center;
     font-weight: bolder;
     color: #29323D;
+}
+
+.mid-section .main-content {
+    padding: 1% 7% 0% 7%;
+}
+
+.pros {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 30vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.pros-one {
+    position: relative;
+}
+
+.pros-one::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12vw;
+    height: 0.8vh;
+    border-radius: 5px;
+    background-color: #ECEFF3;
+}
+
+.pros-card {
+    padding: 1em;
+    width: 25vw;
+}
+
+.pros-picture {
+    width: 5vw;
+    padding: 0 1.5vw 0 0;
+}
+
+.pros-picture img {
+    border-radius: 50px;
+}
+
+.pros-detail {
+    padding: 0vh 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.pros-title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin: 0 0 3% 0;
+    width: 100%;
+}
+
+.pros-description {
+    font-weight: light;
+    color: #7A8DA2;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.mid-section {
+    border-bottom: 1px solid rgb(236, 236, 236);
 }
