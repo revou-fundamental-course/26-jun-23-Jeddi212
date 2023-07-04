@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     color: #3C4754;
+    line-height: 1.4;
 }
 
 nav {
@@ -127,7 +128,6 @@ figcaption {
 .user-picture {
     width: 5vw;
     padding-right: 2vw;
-    display: inline-block
 }
 
 .user-picture img {
@@ -156,6 +156,33 @@ figcaption {
 
 .information-head {
     font-size: 1.4em;
+}
+
+.list-info {
+    display: inline-block;
+}
+
+.list-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 5vh 0 5vh 0;
+}
+
+.list-item p {
+    width: 55%;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item img {
+    border-radius: 50px;
+    width: 100%;
+}
+
+.ordered {
+    width: 4vw;
+    padding-right: 3vw;
 }
 
 h3 {
