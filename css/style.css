@@ -93,6 +93,22 @@ h2 {
     width: 56.5%;
 }
 
+.fade {
+    animation-name: fade;
+    animation-duration: 4.1s;
+}
+
+@keyframes fade {
+
+    0%, 100% {
+        opacity: 0;
+    }
+
+    20%, 80% {
+        opacity: 1
+    }
+}
+
 img {
     border-radius: 5px;
     width: 100%;
@@ -239,7 +255,8 @@ label {
     font-size: 1.1em;
 }
 
-select, option {
+select,
+option {
     color: #C9D3DD;
 }
 
