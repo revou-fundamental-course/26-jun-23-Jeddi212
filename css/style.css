@@ -66,11 +66,10 @@ a {
 /*  */
 
 .top-section {
-    padding: 0% 7% 0% 7%;
+    padding: 3% 7% 7% 7%;
 }
 
 .top-section h1 {
-    padding-top: 1em;
     font-size: 2.5em;
     text-align: center;
     font-weight: bolder;
@@ -85,13 +84,16 @@ h2 {
 }
 
 .top-section .main-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2.7vw;
 }
 
-.rating {
-    width: 56.5%;
+@media (max-width: 768px) {
+    .top-section .main-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .fade {
@@ -222,7 +224,6 @@ p {
 }
 
 .formulir {
-    width: 30%;
     padding: 3vw 4.5vw 3vw 4.5vw;
     border-radius: 5px;
     background-color: #ECEFF3;
