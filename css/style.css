@@ -305,31 +305,6 @@ button {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.pros {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    height: 30vh;
-    padding-top: 5vh;
-    padding-bottom: 10vh;
-}
-
-.pros-one {
-    position: relative;
-}
-
-.pros-one::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 11vw;
-    height: 0.8vh;
-    border-radius: 5px;
-    background-color: #ECEFF3;
-}
-
 .pros-card {
     padding: 3em 1em 5em 1em;
     width: 90%;
