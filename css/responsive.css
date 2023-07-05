@@ -16,13 +16,27 @@
         font-size: 1.2em;
         margin: 0 0 3% 0;
     }
-    
+
     .pros-description {
         font-size: 0.7em;
     }
 
     .bot-section button {
-        font-size: 1vw;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ham-item {
+        padding-right: 4vw;
+    }
+
+    .list-nav a:not(.ham) {
+        display: none;
+    }
+
+    .list-nav a.ham {
+        display: block;
     }
 }
 
@@ -30,7 +44,7 @@
     .top-section .main-content {
         grid-template-columns: 1fr;
     }
-    
+
     .list-item p {
         width: 100%;
     }

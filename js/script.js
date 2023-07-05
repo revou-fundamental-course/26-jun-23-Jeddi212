@@ -92,3 +92,14 @@ function validateForm() {
         + "'\nLastly you have interest in " + interest + " product.")
     return true;
 }
+
+function hamburger() {
+    var x = document.getElementsByClassName("ham-item");
+    for (let i = 0; i < x.length; i++) {
+        if (x[i].style.display === "none") {
+            x[i].style.display = "block";
+        } else {
+            x[i].style.display = "none";
+        }
+    }
+}

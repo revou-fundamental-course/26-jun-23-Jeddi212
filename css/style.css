@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 * {
@@ -32,12 +33,21 @@ nav {
     list-style-type: none;
 }
 
+.list-nav .ham, .ham-item {
+    display: none;
+    font-size: 5vw;
+}
+
+.list-nav a:hover {
+    background-color: #ECEFF3;
+}
+
 li {
     display: flex;
     justify-content: center;
     align-items: center;
     border-style: solid;
-    width: 6.2em;
+    width: calc(4em + 4vw);
     height: 2.4em;
 }
 
@@ -59,6 +69,10 @@ a {
     cursor: pointer;
     color: #000000;
     text-decoration: none;
+}
+
+i {
+    color: #29323D;
 }
 
 /*  */
@@ -96,11 +110,13 @@ h2 {
 
 @keyframes fade {
 
-    0%, 100% {
+    0%,
+    100% {
         opacity: 0;
     }
 
-    20%, 80% {
+    20%,
+    80% {
         opacity: 1
     }
 }
@@ -366,7 +382,7 @@ button {
 }
 
 .call-btn {
-    padding: 2vh 37.5vw 6vh 37.5vw;
+    padding: 2vh calc(40vw - 2em) 6vh calc(40vw - 2em);
 }
 
 footer {
