@@ -19,11 +19,11 @@ var idx = 0;
 function sliderFunc() {
     idx = idx < slides.length ? idx + 1 : 1
 
-    sliderOne.innerHTML = '<img src=img/product/' + slides[idx - 1] + ' class="fade">'
+    sliderOne.innerHTML = '<img src=img/product/' + slides[idx - 1] + ' class="fade-io">'
         + '<figcaption class="fade">"' + quotes[idx - 1] + '"</figcaption>';
 
     sliderTwo.innerHTML = '<figure class="user-picture">'
-        + '<img src="img/profile/' + profile_pic[idx - 1] + '" alt="gambar placeholder user" class="fade">'
+        + '<img src="img/profile/' + profile_pic[idx - 1] + '" alt="gambar placeholder user" class="fade-io">'
         + '</figure>'
         + '<div class="user-info">'
         + '<h4 class="user-name fade">' + names[idx - 1] + '</h4>'
