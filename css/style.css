@@ -89,13 +89,6 @@ h2 {
     gap: 2.7vw;
 }
 
-@media (max-width: 768px) {
-    .top-section .main-content {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-}
-
 .fade {
     animation-name: fade;
     animation-duration: 4.1s;
@@ -151,7 +144,7 @@ figcaption {
 }
 
 .user-picture {
-    width: 5vw;
+    width: calc(2em + 4vw);
     padding-right: 2vw;
 }
 
@@ -161,6 +154,7 @@ figcaption {
 
 .user-info {
     padding: 2vh 0 2vh 0;
+    width: 100%
 }
 
 .user-name {
@@ -205,7 +199,7 @@ figcaption {
 }
 
 .ordered {
-    width: 4vw;
+    width: calc(2em + 2vw);
     padding-right: 3vw;
 }
 
@@ -236,7 +230,7 @@ form {
 label {
     display: block;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: calc(0.5em + 1vw);
 }
 
 .inputan {
@@ -249,12 +243,12 @@ label {
     border: 3px solid #C9D3DD;
     border-radius: 10px;
     background-color: white;
-    font-size: 1.3em;
+    font-size: calc(0.5em + 0.8vw);
 }
 
 .inputan::placeholder {
     color: #C9D3DD;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 select,
@@ -267,7 +261,7 @@ button {
     box-sizing: border-box;
     width: 100%;
     height: 4em;
-    padding: 1em 1em 1em 1em;
+    padding: 1em 0 1em 0;
     margin: 0.5em 0 2em 0;
     border: 3px solid #29323D;
     border-radius: 5px;
@@ -320,7 +314,7 @@ button {
 }
 
 .pros-detail {
-    padding: 0vh 0 0 0;
+    padding: 0 0 0 0;
     width: 100%;
     display: flex;
     justify-content: left;
