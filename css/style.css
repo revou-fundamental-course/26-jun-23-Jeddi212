@@ -103,24 +103,6 @@ h2 {
     gap: 2.7vw;
 }
 
-.fade {
-    animation-name: fade;
-    animation-duration: 4.1s;
-}
-
-@keyframes fade {
-
-    0%,
-    100% {
-        opacity: 0;
-    }
-
-    20%,
-    80% {
-        opacity: 1
-    }
-}
-
 img {
     border-radius: 5px;
     width: 100%;
