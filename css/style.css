@@ -299,7 +299,9 @@ button {
 }
 
 .mid-section .main-content {
-    padding: 1% 7% 0% 7%;
+    padding: 1% 7% 5vh 7%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .pros {
@@ -328,8 +330,8 @@ button {
 }
 
 .pros-card {
-    padding: 1em;
-    width: 25vw;
+    padding: 3em 1em 5em 1em;
+    width: 90%;
 }
 
 .pros-picture {
