@@ -80,7 +80,7 @@
                     <p>Sales akan menghubungi anda 1x24<br>Jam setelah data kami terima</p>
                 </header>
                 
-                <form action="" method="post" name="contactUs" onsubmit="return(validateForm())">
+                <form name="contactUs">
                     <label for="firstName">Your Name:</label>
                     <input type="text" name="fullName" id="fullName" class="inputan" placeholder="First and last name">
 
@@ -103,7 +103,7 @@
                         <option value="sayur">Bawang</option>
                     </select>
 
-                    <button type="submit">SEND</button>
+                    <button type="button" onclick="validateForm()">SEND</button>
                 </form>
             </div>
         </div>
