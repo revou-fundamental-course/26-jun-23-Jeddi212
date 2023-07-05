@@ -1,4 +1,4 @@
-var img = document.getElementById('slider');
+var slider = document.getElementById('slider');
 
 var slides = ['product2.jpg', 'product3.jpg', 'product4.jpg', 'product1.jpg'];
 var quotes = [
@@ -11,7 +11,7 @@ var quotes = [
 
 var Start = 0;
 
-function slider() {
+function sliderFunc() {
     if (Start < slides.length) {
         Start = Start + 1;
     }
@@ -19,7 +19,8 @@ function slider() {
         Start = 1;
     }
 
-    img.innerHTML = '<img src=img/' + slides[Start - 1] + ' class="fade"><figcaption class="fade">"' + quotes[Start - 1] + '"</figcaption>';
+    slider.innerHTML = '<img src=img/' + slides[Start - 1] + ' class="fade">' 
+    + '<figcaption class="fade">"' + quotes[Start - 1] + '"</figcaption>';
 }
 
-setInterval(slider, 4000);
+setInterval(sliderFunc, 4000);
