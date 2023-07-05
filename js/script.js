@@ -20,14 +20,14 @@ function sliderFunc() {
     idx = idx < slides.length ? idx + 1 : 1
 
     sliderOne.innerHTML = '<img src=img/product/' + slides[idx - 1] + ' class="fade-io">'
-        + '<figcaption class="fade">"' + quotes[idx - 1] + '"</figcaption>';
+        + '<figcaption class="fade-io">"' + quotes[idx - 1] + '"</figcaption>';
 
     sliderTwo.innerHTML = '<figure class="user-picture">'
         + '<img src="img/profile/' + profile_pic[idx - 1] + '" alt="gambar placeholder user" class="fade-io">'
         + '</figure>'
         + '<div class="user-info">'
-        + '<h4 class="user-name fade">' + names[idx - 1] + '</h4>'
-        + '<p class="profesi fade">' + profesi[idx - 1] + '</p>'
+        + '<h4 class="user-name fade-io">' + names[idx - 1] + '</h4>'
+        + '<p class="profesi fade-io">' + profesi[idx - 1] + '</p>'
         + '</div>'
 }
 
